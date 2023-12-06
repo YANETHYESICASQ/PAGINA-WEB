@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en bg-dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="WEBSITE text-bg-primary">PRIMA CALZADOS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" href="logot.png">
+</head>
+
+<nav class="navbar navbar-expand-sm bg-black fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand text-danger " href="#">
+            <img src="logot.png" alt="" width="60" height="70">PRIMA CALZADOS
+        </a>
+        <button class="navbar-toggler bg-dark-subtle" type="button " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-4 me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item ms-2 ">
+                    <a class=" text-danger dropdown-item " href="inicio.html">INICIO</a>
+                </li>
+                <li class="nav-item ms-2">
+                    <a class="dropdown-item text-danger " href="ofertas.html">OFERTAS</a>
+                <li class="nav-item ms-2">
+                    <a class="text-white dropdown-item " href="catalogo.html">CATALOGO</a>
+                </li>
+                <li class="nav-item ms-2">
+                    <a class="dropdown-item text-danger" href="nosotros.html">NOSOTROS</a>
+                </li>
+                <li class="nav-item ms-2">   
+                    <a class="dropdown-item text-danger" href="login.html">LOGIN</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-danger" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+
+<section id="productos" class="product py-5">
+    <div class="container-lg py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 ">
+                <div class="section-title text-center">
+                    <h2 class="fw-bold md-5 ">PRODUCTOS</h2>
+                </div>
+            </div>
+        </div>
+        <!--card-->
+        <div class="row">
+            <div class="col-md-3 col-lg-3 md-4 ">
+                <div class="service-item shadow-sm p-4  rounded h-100">
+                    <div class="icon my-4 text-danger text-center">
+                        <i class=" bi bi-code-slash"></i>
+                    </div>
+                    <div class="row g-3">
+                        <!-- Carrusel de Imágenes -->
+                        <div class="col-md-6">
+                            <div id="product-carousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item">
+                                        <img src="Img/mujeres/tacones/ADALIA04 MARRON PU(of).jpg" class="d-block w-100" alt="Product Image">
+                                    </div>
+                                    <!-- Agrega más imágenes aquí -->
+                                    <div class="carousel-item active">
+                                        <img src="Img/mujeres/tacones/ADALIA04 MARRON PU-2.jpg" class="d-block w-100" alt="Otra Imagen">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Img/mujeres/tacones/ADALIA04 MARRON PU-3.jpg" class="d-block w-100" alt="Otra Imagen">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Img/mujeres/tacones/ADALIA04 MARRON PU(mocasine de taco 3 cuero puro ).jpg" class="d-block w-100" alt="Otra Imagen">
+                                    </div>
+            
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#product-carousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#product-carousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+            
+                        <!-- NOMBRE del Producto -->
+                        <div class="col-md-6">
+                            <div class="producto">
+                                <h4>ADALIA04 MARRON PU</h4>
+                                <h5>Precio</h5>
+                            
+                            </div>
+                        </div>
+                        <!-- Detalles del Producto -->
+                        <div>
+                            <p class="descripcionproducto">El zapato taco es ideal para esas caminatas largar pero siempre manteniendo la elegancia. calzado hecho de cuero puro y cosido para su duravilidad</p>
+                            <!-- Botones de selección de tamaño -->
+                            <div class="prbuttons">
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <p class="pick">tallas</p>
+                            <div class="sizes">
+                                <span>35</span>
+                                <span>36</span>
+                                <span>37</span>
+                                <span class="focus">38</span>
+                                <span>39</span>
+                            </div>
+                            <!-- Colores -->
+                            <p class="pick">Color</p>
+                            <div class="colors">
+                                <!-- Agrega tus colores aquí -->
+                                <span class="color" style="background-color: black;">......</span>
+                                <span class="color" style="background-color: brown;">......</span>
+                                <span class="color" style="background-color: rgb(255, 255, 255);">      </span>
+                            </div>
+                            <!-- Botones de acción -->
+                            <div class="buttons">
+                                <button class="btn btn-primary add">Add to Cart</button>
+                                <button class="btn btn-danger like">
+                                    <span>♥</span>
+                                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--card-->
+        
+            <div class="col-md-6 col-lg-4 md-4 ">
+                <div class="service-item shadow-sm p-4  rounded h-100">
+                    <div class="icon my-4 text-danger text-center">
+                        <i class=" bi bi-code-slash"></i>
+                    </div>
+                    <div class="row g-3">
+                        <!-- Carrusel de Imágenes -->
+                        <div class="col-md-6">
+                            <div id="product-carousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item">
+                                        <img src="Img/mujeres/tacones/ADALIA04 MARRON PU(of).jpg" class="d-block w-100" alt="Product Image">
+                                    </div>
+                                    <!-- Agrega más imágenes aquí -->
+                                    <div class="carousel-item active">
+                                        <img src="Img/mujeres/tacones/ADALIA04 MARRON PU-2.jpg" class="d-block w-100" alt="Otra Imagen">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Img/mujeres/tacones/ADALIA04 MARRON PU-3.jpg" class="d-block w-100" alt="Otra Imagen">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Img/mujeres/tacones/ADALIA04 MARRON PU(mocasine de taco 3 cuero puro ).jpg" class="d-block w-100" alt="Otra Imagen">
+                                    </div>
+            
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#product-carousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#product-carousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+            
+                        <!-- NOMBRE del Producto -->
+                        <div class="col-md-6">
+                            <div class="producto">
+                                <h4>ADALIA04 MARRON PU</h4>
+                                <h5>Precio</h5>
+                            
+                            </div>
+                        </div>
+                        <!-- Detalles del Producto -->
+                        <div>
+                            <p class="descripcionproducto">El zapato taco es ideal para esas caminatas largar pero siempre manteniendo la elegancia. calzado hecho de cuero puro y cosido para su duravilidad</p>
+                            <!-- Botones de selección de tamaño -->
+                            <div class="prbuttons">
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <p class="pick">tallas</p>
+                            <div class="sizes">
+                                <span>35</span>
+                                <span>36</span>
+                                <span>37</span>
+                                <span class="focus">38</span>
+                                <span>39</span>
+                            </div>
+                            <!-- Colores -->
+                            <p class="pick">Color</p>
+                            <div class="colors">
+                                <!-- Agrega tus colores aquí -->
+                                <span class="color" style="background-color: black;">......</span>
+                                <span class="color" style="background-color: brown;">......</span>
+                                <span class="color" style="background-color: rgb(255, 255, 255);">      </span>
+                            </div>
+                            <!-- Botones de acción -->
+                            <div class="buttons">
+                                <button class="btn btn-primary add">Add to Cart</button>
+                                <button class="btn btn-danger like">
+                                    <span>♥</span>
+                                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</div></section>
+
+
+
+
+<!--footer-->
+
+<footer class="bg-dark">
+    <div id="contact" class="container text-danger">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>Información de Contacto</h5>
+                <p>Dirección: avenida caylloma n° 322</p>
+                <p>Email: primacalzados_yaneth@email.com</p>
+                <p>Teléfono: 923 456 789</p>
+            </div>
+            <div class="col-md-6">
+                <h5>Enlaces Rápidos</h5>
+                <ul>
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="catalogo.html">catalogo</a></li>
+                    <li><a href="ofertas.html">ofertas</a></li>
+                    <li><a href="nosotros.html">nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</footer>
+</body>
+</html>
+
